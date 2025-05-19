@@ -1,0 +1,44 @@
+**Task Manager Program Report**  
+
+This C# program is a **simple but powerful task management tool** that helps you organize your daily work. Think of it like a digital notebook for your to-do list, but with smart features to keep everything in order.
+
+### **Core Features**
+1. **Task Management Basics**  
+   - Add new tasks with names, priorities (1-3), and due dates  
+   - View all your current tasks in a clean list  
+   - Remove tasks you don't need anymore  
+
+2. **Smart Organization**  
+   - Two ways to sort: by importance (priority) or by due date  
+   - Urgent tasks get special treatment in their own separate list  
+
+3. **Task Completion**  
+   - Check off completed tasks  
+   - All your finished tasks stay visible in a "Done" list  
+
+### **How It Works Under the Hood**
+- **Regular Tasks**: Stored in an array (like a numbered to-do list)  
+- **Completed Tasks**: Kept in a linked list (like a chain of completed items)  
+- **Urgent Tasks**: Handled in a queue (first urgent task added = first to handle)  
+
+### **Sorting Superpowers**
+- **Priority Sorting**: Uses bubble sort - simple and effective for small lists  
+- **Date Sorting**: Uses quicksort - lightning fast for organizing many tasks by deadline  
+
+### **What Makes It Special**
+- **Clean text interface** (no confusing buttons or menus)  
+- **Instant feedback** - always shows what changed after each action  
+- **Visual organization** - clearly separates regular, urgent and completed tasks  
+
+### **Limitations to Know About**
+- Doesn't save tasks when you close the program  
+- Maximum 100 tasks at a time  
+- Basic text interface (no colors or graphics)  
+
+### **Perfect For**
+- Students managing homework deadlines  
+- Professionals tracking daily tasks  
+- Anyone who wants a no-fuss digital to-do list  
+- Great for learning how task managers work  
+
+This program is like having a **personal assistant in your computer** - it keeps all your tasks organized so you can focus on getting things done! The simple design makes it easy to use, while the sorting features help you stay on top of what's most important.
